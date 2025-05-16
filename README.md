@@ -77,5 +77,3 @@ You can submit any feedback in our [discord server](https://discord.gg/vShRGx8ZB
 > We may choose not to add the site if it is redundant or if it does not meet our preferences.
 
 # LabHub Star History
-
-![Stargazers over time](https://starchart.cc/Hakired/Lab.svg?variant=adaptive)
