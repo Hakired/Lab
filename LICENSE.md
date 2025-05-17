@@ -8,7 +8,7 @@ Permission is hereby granted to use the contents under the following conditions:
 
 1. **Attribution**: You must give appropriate credit to the original project, including:
    - Retaining all original copyright notices
-   - Providing a link to the original project repository (https://github.com/Hakired/Lab)
+   - Providing a link to the original project repository (https://github.com/Hakired/LabHub)
    - Clearly indicating if any modifications were made
 2. **Restrictions**:
    - You may NOT clone, reproduce, or redistribute the project websites (labhub.io and associated domains) for commercial purposes
