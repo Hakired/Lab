@@ -24,21 +24,19 @@ import Field from './CardField.vue'
     <div class="align-center mb-4 flex justify-between">
       <div class="text-$vp-c-text-1 lh-relaxed text-sm font-bold">Legend</div>
     </div>
-    <Field icon="i-twemoji-glowing-star">Favorite</Field>
-    <Field icon="i-material-symbols-lock-outline">Closed Source</Field>
-    <Field icon="i-ic-round-attach-money">Paid</Field>
-    <Field icon="i-ic-round-currency-exchange">Subscription</Field>
-    <Field icon="i-akar-icons-coin">Coin / Point</Field>
-    <Field icon="i-ic-round-add-shopping-cart">Freemium</Field>
-    <Field icon="i-material-symbols-cloud-download-outline-rounded">Online / DDL</Field>
-    <Field icon="i-lucide-magnet">Torrent / p2p</Field>
-    <Field icon="i-iconoir-floppy-disk">Local</Field>
-    <Field icon="i-material-symbols-science">Nightly build</Field>
-    <Field icon="i-lucide-mail">Feedback</Field>
-    <Field icon="i-material-symbols-directions-alt">Proxies</Field>
-    <Field icon="i-material-symbols-help">Help / Docs</Field>
-    <Field icon="i-material-symbols-person-add">Needs account</Field>
-    <Field icon="i-material-symbols-info-outline-rounded">More Info</Field>
-    <Field icon="i-mdi-arrow-right-bold">Related</Field>
+<Field icon="i-twemoji-glowing-star"> Indexer / Open Links  
+</Field>
+
+<Field icon="i-twemoji-sparkling-heart"> Popular  
+</Field>
+
+<Field icon="i-twemoji-fire"> Recommended  
+</Field>
+
+<Field icon="i-twemoji-repeat-button"> Backups / Mirrors  
+</Field>
+
+<Field icon="size-6 i-material-symbols-info-outline-rounded"> Info 
+</Field>
   </div>
 </template>

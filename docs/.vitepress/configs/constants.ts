@@ -14,276 +14,174 @@ export const GIT_COMMIT =
 
 // @unocss-include
 export const nav: DefaultTheme.NavItem[] = [
+{
+  text: '🔥 UX-Level Architecture',
+  items: [
+    {
+      text: '✨ Digital Awakening',
+      items: [
+        { text: '📜 Manifesto & How to Use', link: 'qs' },
+        { text: '⚡ Digital Awakening Guides ', link: 'guides' }
+      ]
+    },
+    {
+      text: '🗺️ Cartographer',
+      items: [
+        { text: '🧭 Open Indexers & Link Archives', link: 'open' },
+        { text: '📊 Data Mapping & Visualization', link: 'data' },
+        { text: '📰 Communities, Forums & Alt-Media', link: 'communities' }
+      ]
+    }
+  ]
+},
   {
-    text: 'Pages',
-    items: [
-      { text: 'Quick Start', link: '/qs' },
-      { text: 'FAQs', link: '/faq' },
-      { text: 'Websites', link: '/websites' },
-      { text: 'Software', link: '/software' },
-      { text: 'Misc-sites', link: '/misc' },
-      { text: 'Tools', link: '/tools' },
-      { text: 'Art', link: '/art' },
-      { text: 'Music', link: '/music' },
-      { text: 'Games', link: '/games' },
-      { text: 'Non-English', link: '/nonen' },
-      { text: 'NSFW', link: '/nsfw' },
-      { text: 'Merch', link: '/merch' },
-      { text: 'Scanlation', link: '/scanlation' },
-      { text: 'VTuber', link: '/vtuber' },
-      { text: 'Communities', link: '/comms' }
-    ]
-  },
+  text: '🧠 Semantic Clustering',
+  items: [
+    {
+      text: '🧰 Tech & Infrastructure',
+      items: [
+        { text: '🤖 AI Tools', link: 'ai' },
+        { text: '🧰 Dev Forge (Programming & Toolchains)', link: 'dev' },
+        { text: '☁️ Webcraft (Frontend / Backend)', link: 'webcraft' },
+        { text: '🔧 SysOps & Automation', link: 'sysops' },
+        { text: '🐧 Unix Environments', link: 'unix' },
+      ]
+    },
+            {
+      text: '😈 Malware Lab',
+      items: [
+    { text: '🧬 Malware Analysis', link: '/malware/analysis' },
+    { text: '👁️ Forensics', link: '/malware/forensics' },
+    { text: '🔄 Reverse Engineering', link: '/malware/reversing' },
+    { text: '🟥 Red Team', link: '/malware/red' },
+    { text: '🟦 Blue Team', link: '/malware/blue' },
+    { text: '🟣 Purple Team', link: '/malware/purple' },
+    { text: '🎟️ Conferences, Events, Hackathons', link: '/malware/events' },
+      ]
+    },
+        {
+      text: 'Creative & Media Stack',
+      items: [
+        { text: '🎨 Design & Concept Art', link: 'design' },
+        { text: '📸 Image Tools', link: 'image' },
+        { text: '🎥 Video Creation', link: 'video' },
+        { text: '🎵 Audio Tools', link: 'audio' },
+        { text: '🌀 File Flows & Media Ops', link: 'files' },
+      ]
+    },
+    {
+      text: 'Digital Lifestyle',
+      items: [
+    { text: '🎮 Gaming & Emulation', link: 'gaming' },
+    { text: '💬 Social Media Tools', link: 'social-media' },
+    { text: '📱 Mobile Platforms (iOS/Android)', link: 'mobile' },
+    { text: '💸 FinTech & Crypto', link: 'fintech' },
+    { text: '👷 Jobs & Remote Work', link: 'jobs' },
+    { text: '🎌 Language Learning', link: 'language' },
+      ]
+    }
+  ]
+},
   {
-    text: 'Japan',
+    text: '📖 Deep Knowledge & Education',
     items: [
-      { text: 'Language', link: '/japan/language' },
-      { text: 'Immersion', link: '/japan/immersion' },
-      { text: 'Software', link: '/japan/software' },
-      { text: 'Culture', link: '/japan/culture' }
-    ]
-  },
-  {
-    text: 'Glossary',
-    items: [
-      { text: 'General', link: '/glossary/general' },
-      { text: 'Anime', link: '/glossary/anime' },
-      { text: 'Manga', link: '/glossary/manga' },
-      { text: 'Audio', link: '/glossary/audio' },
-      { text: 'NSFW', link: '/glossary/nsfw' }
-    ]
-  },
-  {
-    text: 'Torrenting',
-    // @ts-expect-error
-    collapsed: true,
-    items: [
-      { text: 'Getting Started', link: '/torrenting/start' },
-      { text: 'FAQs', link: '/torrenting/faq' },
-      { text: 'Glossary', link: '/torrenting/glossary' },
-      { text: 'qBittorrent', link: '/torrenting/qbit' },
-      { text: `Trackers`, link: '/torrenting/trackers' }
-    ]
-  },
-  {
-    text: 'Guides',
-    // @ts-expect-error
-    collapsed: true,
-    items: [
-      {
-        text: 'Anime',
-        items: [
-          { text: 'Disc Ripping', link: '/guides/anime/discrip' },
-          { text: 'Network Streaming', link: '/guides/anime/ns' }
-        ]
-      },
-      {
-        text: 'Manga',
-        items: [
-          { text: 'Digital Comic Info', link: '/guides/manga/comicinfo' },
-          { text: 'JXL Manga Readers', link: '/guides/manga/jxl' },
-          { text: 'Madokami', link: '/guides/manga/madokami' },
-          { text: 'Manga Image Editing', link: '/guides/manga/imagedit' }
-        ]
-      },
-      {
-        text: 'Extension Repos',
-        collapsed: true,
-        items: [
-          { text: 'Mihon & Aniyomi', link: '/guides/ext/mihon' },
-          { text: 'Mangayomi', link: '/guides/ext/mangayomi' },
-          { text: 'Other Android Apps', link: '/guides/ext/misc' },
-          { text: 'iOS apps', link: '/guides/ext/ios' }
-        ]
-      },
-      {
-        text: 'Music',
-        items: [
-          { text: 'FB2K Synced Lyrics', link: '/guides/music/fb2klyrics' },
-          { text: 'Squidify', link: '/guides/music/squidify' },
-          { text: 'Transcoding Audio', link: '/guides/music/transcoding' }
-        ]
-      },
-      {
-        text: 'Technical',
-        items: [
-          { text: 'Blocking Ads', link: '/guides/tech/adblock' },
-          { text: 'IRC & XDCC', link: '/guides/tech/irc' },
-          { text: 'JDL2 Ad-removal', link: '/guides/tech/jdl' }
-        ]
-      }
-    ]
-  },
-  {
-    text: 'Preferences',
-    items: [
-      {
-        component: 'PreferenceRadio',
-        props: {
-          text: 'Floating Takodachi',
-          group: 'takodachi',
-          options: ['Enable', 'Disable'],
-          defaultOption: 'Disable'
-        }
-      }
+      { text: '📗 eBook Libraries & Archives', link: 'ebooks' },
+      { text: '⚡ Tech Educational', link: 'techedu' },
+      { text: '📖 General Knowledge & Educational', link: 'educational' },
+      { text: '✡️ Esoteric & Occult Tech', link: 'esoteric' },
     ]
   }
 ]
 
+
 export const sidebar: DefaultTheme.Sidebar = [
+  // Digital Awakening layer
   {
-    text: '<span class="i-lucide:zap"></span> Quick Start',
-    link: '/qs'
-  },
-  {
-    text: '<span class="i-lucide:message-circle-question"></span> FAQs',
-    link: '/faq'
-  },
-  {
-    text: '<span class="i-lucide:earth"></span> Websites',
-    link: '/websites'
-  },
-  {
-    text: '<span class="i-lucide:box"></span> Software',
-    link: '/software'
-  },
-  {
-    text: '<span class="i-lucide:folder-open"></span> Misc-sites',
-    link: '/misc'
-  },
-  {
-    text: '<span class="i-lucide:wrench"></span> Tools',
-    link: '/tools'
-  },
-  {
-    text: '<span class="i-lucide:brush"></span> Art',
-    link: '/art'
-  },
-  {
-    text: '<span class="i-lucide:music"></span> Music',
-    link: '/music'
-  },
-  {
-    text: '<span class="i-lucide:gamepad-2"></span> Games',
-    link: '/games'
-  },
-  {
-    text: '<span class="i-lucide:map"></span> Non-English',
-    link: '/nonen'
-  },
-  {
-    text: '<span class="i-lucide:ban"></span> NSFW',
-    link: '/nsfw'
-  },
-  {
-    text: '<span class="i-lucide:package-2"></span> Merch',
-    link: '/merch'
-  },
-  {
-    text: '<span class="i-lucide:scroll-text"></span> Scanlation',
-    link: '/scanlation'
-  },
-  {
-    text: '<span class="i-twemoji-comet"></span> VTuber',
-    link: '/vtuber'
-  },
-  {
-    text: '<span class="i-uil:letter-japanese-a"></span> Japan',
-    collapsed: true,
+    text: '✨ Digital Awareness',
+    collapsed: false,
     items: [
-      { text: 'Language', link: '/japan/language' },
-      { text: 'Immersion', link: '/japan/immersion' },
-      { text: 'Software', link: '/japan/software' },
-      { text: 'Culture', link: '/japan/culture' }
+      { text: '📜 Manifesto & How to Use', link: 'qs' },
+      { text: '🔥 Privacy & Identity Protection', link: 'privacy' },
+      { text: '⚡ Digital Awakening Guides', link: 'guides' }
     ]
   },
+
+  // Cartographer layer
   {
-    text: '<span class="i-lucide:book-open"></span> Glossary',
-    collapsed: true,
+    text: '🧭 Mapping & Indexing',
+    collapsed: false,
     items: [
-      { text: 'General', link: '/glossary/general' },
-      { text: 'Anime', link: '/glossary/anime' },
-      { text: 'Manga', link: '/glossary/manga' },
-      { text: 'Audio', link: '/glossary/audio' },
-      { text: 'NSFW', link: '/glossary/nsfw' }
+      { text: '🧭 Open Indexers & Link Archives', link: 'open' },
+      { text: '📊 Data Mapping & Visualization', link: 'data' },
+      { text: '📰 Communities, Forums & Alt-Media', link: 'communities' }
     ]
   },
+
+  // Tech & Infrastructure layer
   {
-    text: '<span class="i-lucide:magnet"></span> Torrenting',
-    collapsed: true,
+    text: '🧰 Dev & Infrastructure',
+    collapsed: false,
     items: [
-      { text: 'Getting Started', link: '/torrenting/start' },
-      { text: 'FAQs', link: '/torrenting/faq' },
-      { text: 'Glossary', link: '/torrenting/glossary' },
-      { text: 'qBittorrent', link: '/torrenting/qbit' },
-      { text: `Trackers`, link: '/torrenting/trackers' }
+      { text: '🤖 AI Tools', link: 'ai' },
+      { text: '🛠 Dev Forge (Programming & Toolchains)', link: 'dev' },
+      { text: '☁️ Webcraft (Frontend / Backend)', link: 'webcraft' },
+      { text: '🔧 SysOps & Automation', link: 'sysops' },
+      { text: '🐧 Unix Environments', link: 'unix' }
     ]
   },
+
+  // Expresión Creativa
   {
-    text: '<span class="i-lucide:book-key"></span> Guides',
-    collapsed: true,
+    text: '🖌️ Creative Tools',
+    collapsed: false,
     items: [
-      {
-        text: 'Anime',
-        collapsed: true,
-        items: [
-          { text: 'Disc Ripping', link: '/guides/anime/discrip' },
-          { text: 'Network Streaming', link: '/guides/anime/ns' }
-        ]
-      },
-      {
-        text: 'Manga',
-        collapsed: true,
-        items: [
-          { text: 'Digital Comic Info', link: '/guides/manga/comicinfo' },
-          { text: 'JXL Manga Readers', link: '/guides/manga/jxl' },
-          { text: 'Madokami', link: '/guides/manga/madokami' },
-          { text: 'Manga Image Editing', link: '/guides/manga/imagedit' }
-        ]
-      },
-      {
-        text: 'Extension Repos',
-        collapsed: true,
-        items: [
-          { text: 'Mihon & Aniyomi', link: '/guides/ext/mihon' },
-          { text: 'Mangayomi', link: '/guides/ext/mangayomi' },
-          { text: 'Other Android Apps', link: '/guides/ext/misc' },
-          { text: 'iOS apps', link: '/guides/ext/ios' }
-        ]
-      },
-      {
-        text: 'Music',
-        collapsed: true,
-        items: [
-          { text: 'FB2K Synced Lyrics', link: '/guides/music/fb2klyrics' },
-          { text: 'Squidify', link: '/guides/music/squidify' },
-          { text: 'Transcoding Audio', link: '/guides/music/transcoding' }
-        ]
-      },
-      {
-        text: 'Technical',
-        collapsed: true,
-        items: [
-          { text: 'Blocking Ads', link: '/guides/tech/adblock' },
-          { text: 'IRC & XDCC', link: '/guides/tech/irc' },
-          { text: 'JDL2 Ad-removal', link: '/guides/tech/jdl' }
-        ]
-      }
+      { text: '🎨 Design & Concept Art', link: 'design' },
+      { text: '📸 Image Tools', link: 'image' },
+      { text: '🎥 Video Creation', link: 'video' },
+      { text: '🎵 Audio Tools', link: 'audio' },
+      { text: '🌀 File | Media | Sharing', link: 'files' }
     ]
   },
+  // Malware LabHub
+{
+  text: '😈 Malware LabHub',
+  collapsed: true,
+  items: [
+    { text: '🧬 Malware Analysis', link: '/malware/analysis' },
+    { text: '👁️ Forensics', link: '/malware/forensics' },
+    { text: '🔄 Reverse Engineering', link: '/malware/reversing' },
+    { text: '🟥 Red Team', link: '/malware/red' },
+    { text: '🟦 Blue Team', link: '/malware/blue' },
+    { text: '🟣 Purple Team', link: '/malware/purple' },
+    { text: '🎟️ Conferences, Events, Hackathons', link: '/malware/events' }
+  ]
+},
+  // Integración Digital
   {
-    text: '<span class="i-lucide:messages-square"></span> Communities',
-    link: '/comms'
+    text: '🌏 Digital Lifestyle',
+    collapsed: true,
+    items: [
+      { text: '🎮 Gaming & Emulation', link: 'gaming' },
+      { text: '💬 Social Media Tools', link: 'social' },
+      { text: '📱 Mobile Platforms (iOS / Android)', link: 'mobile' },
+      { text: '💸 FinTech & Crypto', link: 'fintech' },
+      { text: '👷 Jobs & Remote Work Platforms', link: 'jobs' }
+    ]
   },
+
+  // Conocimiento & Estudio
   {
-    text: '<span class="i-lucide:heart-handshake"></span> Credits',
-    link: '/credits'
-  },
-    {
-    text: '<span class="i-lucide:goal"></span> Getting Started',
-    link: '/start'
+    text: '📖 Knowledge & Learning',
+    collapsed: true,
+    items: [
+      { text: '📗 eBook Libraries & Archives', link: 'ebooks' },
+      { text: '⚡ Tech Educational', link: 'techedu' },
+      { text: '🧠 General Knowledge & Interdisciplinary Studies', link: '/knowledge/general' },
+      { text: '✡️ Esoteric & Occult Tech', link: '/knowledge/esoteric' },
+    ]
   }
 ]
+
 
 export const siteConfig = {
   title: 'LabHub',

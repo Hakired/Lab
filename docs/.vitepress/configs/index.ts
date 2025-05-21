@@ -79,10 +79,10 @@ export const shared: UserConfig<DefaultTheme.Config> = {
     nav,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hakired/Lab' },
-      { icon: 'discord', link: 'https://discord.gg/vShRGx8ZBC' },
+      { icon: 'discord', link: '#' },
       {
-        icon: 'bluesky',
-        link: 'https://bsky.app/profile/labhub.io'
+        icon: 'youtube',
+        link: '#'
       }
     ],
     footer: {
