@@ -6,7 +6,7 @@ outline: [1,2]
 ---
 
 <GradientCard title="Image Tools" description="Creative AI-powered image generation tools for art, illustrations, and renders." theme="blue" variant="thin" /> 
-![](/banner/ImageResources.gif)
+![](/banner/imageresources.gif)
 
 # 📸 Image Tools
 ## 📷 Free Media Resources
@@ -18,7 +18,6 @@ outline: [1,2]
 ==Public Domain and CC0 Resources  
 :::
 
-![](/banner/ImageEditing.gif)
 
 ## 🖌️ Image Editing
 :::tabs
@@ -30,7 +29,6 @@ outline: [1,2]
 ==macOS Image Editing Apps  
 :::
 
-![](/banner/imagecreation.gif)
 
 ## 🎨 Image Creation
 :::tabs
@@ -42,8 +40,6 @@ outline: [1,2]
 ==2D and 3D Animation Tools for Artists  
 :::
 
-![](/banner/assets.gif)
-
 ## 🧩 Design Resources
 :::tabs
 ==Graphic Design Apps  
@@ -53,7 +49,6 @@ outline: [1,2]
 ==UI Kits, Mockups and Templates  
 :::
 
-![](/banner/downloader.gif)
 
 ## ⬇️ Downloading Images
 :::tabs
@@ -64,7 +59,6 @@ outline: [1,2]
 ==High-Quality Wallpaper Resources  
 :::
 
-![](/banner/utility.gif)
 
 ## 🛠️ Image Utility Tools
 :::tabs

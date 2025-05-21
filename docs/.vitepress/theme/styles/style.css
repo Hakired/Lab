@@ -532,3 +532,67 @@ table tr:nth-child(odd) {
     }
   }
 }
+
+
+/* ✅ Mejora: Evitar animaciones si el usuario las prefiere reducidas */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ✅ Mejora: Ajustar fuentes en pantallas pequeñas */
+@media (max-width: 640px) {
+  body {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+}
+
+/* ✅ Mejora: Compactar .sandbox aún más */
+.sandbox {
+  max-width: 50%;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 0.85rem;
+}
+
+.sandbox h1 {
+  font-size: 1.1rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.sandbox h2 {
+  font-size: 1rem;
+  margin: 0.8rem 0 0.4rem;
+}
+
+.sandbox h3 {
+  font-size: 0.95rem;
+  margin: 0.6rem 0 0.3rem;
+}
+
+.sandbox h4 {
+  font-size: 0.9rem;
+  margin: 0.5rem 0 0.3rem;
+}
+
+.sandbox .custom-block {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+/* ✅ Mejora: Limpieza visual en video embeds */
+.video_wrapper iframe {
+  border: 0;
+}
+
+/* ✅ Mejora: Ajustar texto de figcaption en sandbox */
+.sandbox figure figcaption {
+  font-size: 0.75rem;
+  margin-top: 0.75rem;
+  color: var(--vp-c-text-2);
+}

@@ -20,7 +20,8 @@
     "docs/.vitepress/**/*.ts",
     "docs/.vitepress/**/*.mts",
     "docs/.vitepress/**/*.vue",
-    "docs/**/*.md"
+    "docs/**/*.md",
+    "docs/buscador.js"
   ],
   "exclude": ["node_modules"],
   "vueCompilerOptions": {
